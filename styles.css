@@ -1,8 +1,9 @@
+/* imported fonts below */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body {
     font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   }
-/*self hosted fonts below*/
+/* self hosted fonts below */
 @font-face {
     font-family: my-cool-font;
     src: url(../fonts/the-font-file.woff);
