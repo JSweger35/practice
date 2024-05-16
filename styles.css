@@ -25,6 +25,16 @@ p.line-height {
 .overflowing {
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis;
+  t
+  
+  /* This rule will only select the div with the class child group2 */
+.group1 + div {
+  /* Our cool CSS */
 }
+
+/* This rule will only select the div with the class child group3 */
+.group1 + div + div {
+  /* More cool CSS */
+}
+
   
