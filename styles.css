@@ -51,3 +51,11 @@ p.line-height {
 a:visited {
    color: purple;
 }
+
+.myList:nth-child(5) {/* Selects the 5th element with class myList */}
+
+.myList:nth-child(3n) { /* Selects every 3rd element with class myList */}
+
+.myList:nth-child(3n + 3) { /* Selects every 3rd element with class myList, beginning with the 3rd */}
+
+.myList:nth-child(even) {/* Selects every even element with class myList */}
