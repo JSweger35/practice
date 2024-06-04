@@ -59,3 +59,15 @@ a:visited {
 .myList:nth-child(3n + 3) { /* Selects every 3rd element with class myList, beginning with the 3rd */}
 
 .myList:nth-child(even) {/* Selects every even element with class myList */}
+
+[src] {
+  /* This will target any element that has a src attribute. */
+}
+
+img[src] {
+  /* This will only target img elements that have a src attribute. */
+}
+
+img[src="puppy.jpg"] {
+  /* This will target img elements with a src attribute that is exactly "puppy.jpg" */
+}
